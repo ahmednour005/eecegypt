@@ -1,0 +1,73 @@
+select:focus,.form-control:focus{
+    outline: 0;
+    box-shadow: none;
+}
+select,.form-control{
+    height: 40px;
+    box-shadow: 0px 5px 11px rgba(0,0,0,0.03);
+}
+select option:hover{
+background:#DDD;
+}
+body{
+    background:#FFF;
+}
+p{
+    font-size: 17px;
+    color: #757575;
+}
+h1{
+    font-size: 45px;
+    position: relative;
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+h1::before {
+    left: 0;
+    position: absolute;
+    content: '';
+    bottom: -17px;
+    height: 6px;
+    width: 192px;
+    background-color: #eee;
+}
+h1::after {
+    left: 0;
+    position: absolute;
+    content: '';
+    bottom: -29px;
+    height: 6px;
+    width: 115px;
+    background-color: #eee;
+}
+
+.pref{
+    margin-top: 40px;
+}
+.pref p{
+    line-height: 12px;
+    color: #333;
+    font-size: 15px;
+}
+.pref p span{
+    color: #7d7d7d;
+    font-weight: 700;
+}
+h2{
+    margin-bottom: 30px;
+}
+.description p{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.wave{
+    width: 100%;
+    position: fixed;
+    opacity: 0.1;
+}
+.btn-success{
+    background: #335533;
+    margin-top: 10px;
+}
